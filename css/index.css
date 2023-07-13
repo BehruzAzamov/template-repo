@@ -1,3 +1,260 @@
 main {
     flex-grow: 1;
 }
+
+.hero__container__header {
+    background-color: var(--section-blue-color);
+    width: 192rem;
+    height: 60.3rem;
+    padding-left: 32.5rem;
+    margin-left: -32.5rem;
+    padding-top: 11.7rem;
+    margin-top: 1.6rem;
+    margin-bottom: 9.6rem;
+}
+
+h1 {
+    font-size: var(--h1-fs);
+    font-weight: var(--h1-fw);
+    line-height: var(--h1-lh);
+    letter-spacing: var(--h1-ls);
+    color: var(--text-violed-color);
+}
+
+.hero__conatiner__header__pp {
+    margin-top: 1.2rem;
+    font-size: var(--p-fs);
+    font-weight: var(--p-fw);
+    line-height: var(--p-lh);
+}
+
+.hero__container__header__link-first {
+    color: var(--white-color);
+    font-size: var(--a-fs);
+    font-weight: var(--a-fw);
+    line-height: var(--a-lh);
+    margin-top: 3.2rem;
+    width: 19.9rem;
+    height: 5.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color);
+    border-radius: 2.7rem;
+    margin-right: 4rem;
+}
+
+.hero__container__header__links {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero__container__header__link-second {
+    margin-top: 5rem;
+    color: var(--text-violed-color);
+    font-size: var(--a-fs);
+    font-weight: var(--a-fw);
+    line-height: var(--a-lh);
+}
+
+.hero__container__header__company {
+    margin-top: 5.6rem;
+    font-size: var(--p-fs);
+    font-weight: var(--p-fw);
+    line-height: var(--p-lh);
+}
+
+.hero__container__header__company__logo {
+    display: flex;
+    gap: 4.6rem;
+    margin-top: 1.8rem;
+    margin-right: 3.5rem;
+}
+
+.hero__container__header {
+    display: flex;
+}
+
+.hero__container__main__h2 {
+    font-size: var(--h2-fs);
+    font-weight: var(--h2-fw);
+    line-height: var(--h2-lh);
+    letter-spacing: var(--h2-ls);
+    color: var(--text-violed-color);
+}
+
+.hero__container__main__pp {
+    margin-top: 2.7rem;
+    font-weight: 500;
+    font-style: 1.8rem;
+    margin-bottom: 6.4rem;
+}
+
+
+.header__container__main__cards {
+    display: flex;
+    gap: 4rem;
+}
+
+.header__container__main__card__img {
+    margin-bottom: 3.3rem;
+}
+
+.header__container__main__card__h5 {
+    font-size: var(--h5-fs);
+    font-weight: var(--h5-fw);
+    line-height: var(--h5-lh);
+    letter-spacing: var(--h5-ls);
+    margin-bottom: 1.7rem;
+}
+
+.header__container__main__card__pp {
+    font-size: var(--p-fs);
+    font-weight: var(--p-fw);
+    line-height: var(--p-lh);
+    letter-spacing: var(--p-ls);
+    margin-bottom: 2.4rem;
+}
+
+.header__container__main__card__link {
+    color: var(--main-color);
+    font-size: var(--a-fs);
+    font-weight: var(--a-fw);
+    line-height: var(--a-lh);
+}
+
+.hero__container__main__solve {
+    margin-top: 9.6rem;
+    width: 192rem;
+    height: 66.5rem;
+    background-color: var(--section-blue-color);
+    margin-left: -32.1rem;
+    padding-top: 9.6rem;
+    padding-left: 32.1rem;
+}
+
+.hero__container__main__solve__h3 {
+    color: var(--text-black-color);
+    margin-bottom: 6.4rem;
+}
+
+.hero__section__main__solve__text {
+    display: flex;
+    gap: 4rem;
+}
+
+.hero__container__main__solve__blocks__block-one {
+    width: 40.1rem;
+    height: 27.7rem;
+    background-color: var(--white-color);
+    border-radius: 2rem;
+    padding-top: 4.8rem;
+    padding-left: 3.9rem;
+}
+
+.hero__container__main__solve__blocks__block-one__img {
+    margin-bottom: 3.2rem;
+}
+
+.hero__container__main__solve__blocks__block-one__h5 {
+    color: var(--text-black-color);
+}
+
+.hero__container__main__solve__blocks__block-one__pp {
+    font-size: 1.6rem;
+    margin-top: 1.6rem;
+}
+
+.hero__container__main__solve__blocks {
+    display: flex;
+    gap: 3.8rem;
+}
+
+.hero__container__main__solve__blocks__block-two {
+    width: 40.1rem;
+    height: 27.7rem;
+    background-color: var(--white-color);
+    border-radius: 2rem;
+    padding-top: 4.8rem;
+    padding-left: 3.9rem;
+}
+
+.hero__container__main__solve__blocks__block-two__img {
+    margin-bottom: 3.2rem;
+}
+
+.hero__container__main__solve__blocks__block-two__h5 {
+    color: var(--text-black-color);
+}
+
+.hero__container__main__solve__blocks__block-two__pp {
+    font-size: 1.6rem;
+    margin-top: 1.6rem;
+}
+
+
+.hero__container__main__solve__blocks__block-three {
+    width: 40.1rem;
+    height: 27.7rem;
+    background-color: var(--white-color);
+    border-radius: 2rem;
+    padding-top: 4.8rem;
+    padding-left: 3.9rem;
+}
+
+.hero__container__main__solve__blocks__block-three__img {
+    margin-bottom: 3.2rem;
+}
+
+.hero__container__main__solve__blocks__block-three__h5 {
+    color: var(--text-black-color);
+}
+
+.hero__container__main__solve__blocks__block-three__pp {
+    font-size: 1.6rem;
+    margin-top: 1.6rem;
+}
+
+.hero__container__main__solve {
+    margin-bottom: 4.1rem;
+}
+
+.hero__container__main__company-history__text__h2 {
+    color: var(--text-black-color);
+    margin-bottom: 3.2rem;
+}
+
+.hero__container__main__company-history__text__bottom__first__h3 {
+    margin-top: 4.8rem;
+    font-weight: 700;
+    font-size: var(--h3-fs);
+    line-height: var(--h3-lh);
+    letter-spacing: var(--h3-ls);
+    color: var(--main-color);
+    margin-bottom: 1.6rem;
+}
+
+.hero__container__main__company-history__text__bottom__first__h5 {
+    color: var(--text-black-color);
+    margin-bottom: 1.6rem;
+}
+
+.hero__container__main__company-history__text__bottom__first__pp {
+    margin-bottom: 13.1rem;
+}
+
+.hero__container__main__company-history__text__bottom {
+    display: flex;
+    gap: 2.6rem;
+}
+
+.hero__container__main__services {
+    width: 127.4rem;
+    height: 68.2rem;
+    background-color: #EDF7FF;
+}
+
+.hero__container__main__company-history {
+    display: flex;
+    gap: 100rem;
+}
